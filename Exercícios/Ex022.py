@@ -1,0 +1,10 @@
+nome = input('Digite seu nome: ')
+maiuscula = nome.upper()
+minuscula = nome.lower()
+letras = len(nome.replace(' ', ''))
+primeirapalavra = nome.split()
+
+print('Seu nome em letras maiusculas fica: {}'.format(maiuscula))
+print('Seu nome em letras minúsculas fica: {}'.format(minuscula))
+print('Desconsiderando os espaços seu nome possui, {} caracteres'.format(letras))
+print('só seu primeiro nome possui {} caracteres'.format(len(primeirapalavra[0])))
