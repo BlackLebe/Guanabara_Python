@@ -1,4 +1,4 @@
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome: ').strip()
 maiuscula = nome.upper()
 minuscula = nome.lower()
 letras = len(nome.replace(' ', ''))
