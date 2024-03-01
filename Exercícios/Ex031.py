@@ -1,4 +1,4 @@
-dist = float(input('Digite a distância da viagem'))
+dist = float(input('Digite a distância da viagem '))
 preco1 = dist * 0.50
 preco2 = dist * 0.45
 if dist <= 200:
