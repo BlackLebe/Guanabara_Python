@@ -1,10 +1,10 @@
 from random import choice
-jokenpo = str(input('VAMOS JOGAR JOKENPO, ESCOLHA PEDRA PAPEL OU TESOURA HÁ ^^\n')).capitalize()
+jokenpo = (input('VAMOS JOGAR JOKENPO, ESCOLHA PEDRA PAPEL OU TESOURA HÁ ^^\n')).capitalize()
 computador = choice(['Pedra', 'Papel', 'Tesoura'])
 print(computador)
 #Derrotas:
 if jokenpo == 'Pedra' and computador == 'Papel':
-    print('IIIH PARECE QUE VOCÊ PERDEU EU TIREI {} E {} GANHA DE {}'.format(computador,computador,jokenpo))
+    print(f'IIIH PARECE QUE VOCÊ PERDEU EU TIREI {computador} E {computador} GANHA DE {jokenpo}')
 elif jokenpo == 'Papel' and computador == 'Tesoura':
     print(print('IIIH PARECE QUE VOCÊ PERDEU EU TIREI {} E {} GANHA DE {}'.format(computador,computador,jokenpo)))
 elif jokenpo == 'Tesoura' and computador == 'Pedra':
