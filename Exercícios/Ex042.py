@@ -9,7 +9,7 @@ if condicao1 and condicao2 and condicao3 == True:
         print('Se trata de um triângulo equilátero')
     elif r1 == r2 or r1 == r3 or r2 == r3:
         print('Trata-se de um triângulo isóceles')
-    elif r1 != r2 != r3:
+    elif r1 != r2 != r3 != r1:
         print('Trata-se de um triângulo escaleno')
 else:
     print('\033[31mImpossível fazer um triângulo com essas medidas')
