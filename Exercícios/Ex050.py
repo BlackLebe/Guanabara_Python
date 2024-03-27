@@ -1,6 +1,6 @@
 s = 0
-for c in range(0,6):
-    n = int(input('Digite um número: '))
-    if n % 2 ==0:
+for c in range(1, 7):
+    n = int(input(f'Digite o {c} número: '))
+    if n % 2 == 0:
         s += n
 print(s)
